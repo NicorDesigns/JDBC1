@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/1-CREATE-APP-USER.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/1A-CREATE-CHARITY.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/1B-CREATE-CHARITY-CATEGORY.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/2A-CREATE-CHARITYDB.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/3A-CREATE-CHARITY-ASSOCIATE.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/3B-CREATE-CHARITY-ASSOCIATE-EMAIL.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/3C-CREATE-CHARITY-ASSOCIATE-PHONE.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/4-CREATE-CHARITY-ASSOCIATE-ADDRESS.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/5-CREATE-CHARITY-ASSOCIATE-TYPE.SQL" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mariadbsql/MariaDB___insurance_admin_localhost-2020_09_15_08_33_41-dump.sql" dialect="MariaDB" />
+  </component>
+</project>
