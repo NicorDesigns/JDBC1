@@ -1,0 +1,13 @@
+@startuml
+Handler -> Command : New Query Command
+Command ->o DataSource: Get Connection
+Command ->o Connection: Create Statement
+Command ->o Statement: Execute Query
+Statement -> ResultSet : Create ResultSet
+ResultSet --\\ Statement : Return ResultSet
+Statement --\\ Command: ResultSet
+Command ->o Command: Extract ResultSet Values
+Command ->x ResultSet: Close and Delete ResultSet
+Command ->x Statement: Close and Delete Statement
+Command ->x Connection: Close and Delete Connection
+@enduml
