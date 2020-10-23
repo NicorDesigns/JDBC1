@@ -1,6 +1,6 @@
-# JDBC1
-1. Create Charity DB using MariaDB command line 
-2. Stop old DB, start new DB with MariaDB command line 
-3. Create a plain Maven Archetype project (demo)
-4. Set up DB Connection in IntelliJ
-5. Create Charity DB with SQL Scripts in IntelliJ
+# JDBC2
+1. Set the project/maven compile to OpenJDK 11 that was downloaded earlier on
+2. Set the command line mvn --version to use OpenJDK 11
+3. Add the MariaDB Client Connector to the Maven Dependencies
+4. Instead of Main Method Test Driver use Junit 5 Tests like currently in HD
+5. Demo driverManagerApp and Unit Test : DriverManager.getConnection()

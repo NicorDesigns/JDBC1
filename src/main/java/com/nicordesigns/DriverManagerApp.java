@@ -83,16 +83,6 @@ public class DriverManagerApp
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
             }
-        } else if (this.dbms.equals("derby")) {
-            try {
-                conn = DriverManager.getConnection(
-                        "jdbc:" + this.dbms + ":" +
-                                this.dbName +
-                                ";create=true",
-                        connectionProps);
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
-            }
         }
         System.out.println("Connected to database");
         return conn;
